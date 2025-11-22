@@ -3,7 +3,7 @@ sudo yum update -y
 sudo yum install wget -y
 
 # Install correct Java (full JDK, not jmods)
-sudo yum install java-17-amazon-corretto -y
+sudo yum install java-17-amazon-corretto-jmods -y
 
 # Create app directory and download Nexus
 sudo mkdir -p /app && cd /app
